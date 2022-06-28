@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Cursor : MonoBehaviour {
-    public Texture2D cursorTXT;
+    [SerializeField] private Texture2D cursorTXT;
 
     private void Start() {
         UnityEngine.Cursor.lockState = CursorLockMode.Confined;

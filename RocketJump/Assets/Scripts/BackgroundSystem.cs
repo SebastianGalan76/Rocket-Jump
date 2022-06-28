@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BackgroundSystem : MonoBehaviour {
-    public Transform player;
-    public Camera bgCamera;
+    [SerializeField] private Transform player;
+    [SerializeField] private Camera bgCamera;
 
-    public GameObject[] backgrounds;
-    public Color32[] colors;
+    [SerializeField] private GameObject[] backgrounds;
+    [SerializeField] private Color32[] colors;
+
+    private float stageSize = 154f;
 
     private void Update() {
-        bgCamera.transform.localPosition = new Vector3((player.localPosition.x / 5f) + 2.5f, (player.transform.position.y % 154) / 25f, -10);
+        bgCamera.transform.localPosition = new Vector3((player.localPosition.x / 5f) + 2.5f, (player.transform.position.y % stageSize) / 25f, -10);
     }
 
     //Change the camera position after the game starts.

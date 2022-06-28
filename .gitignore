@@ -60,3 +60,5 @@ crashlytics-build.properties
 
 RocketJump/Assets/Materials/Tileset
 RocketJump/Assets/Scripts/Steamworks.NET/SteamManager.cs
+
+*.meta

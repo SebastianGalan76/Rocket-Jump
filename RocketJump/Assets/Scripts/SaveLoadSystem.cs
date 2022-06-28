@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class SaveLoadSystem : MonoBehaviour {
     [SerializeField] private Transform playerT;
-    [SerializeField] private UISystem ui;
+    [SerializeField] private TimeController time;
     [SerializeField] private MovingObject[] traps;
 
     private Player player;
 
-    private void Start()
+    private void Awake()
     {
         player = playerT.GetComponent<Player>();
     }
@@ -42,7 +42,7 @@ public class SaveLoadSystem : MonoBehaviour {
         }
         void SaveTime()
         {
-            FileManager.SaveData("currentGame/time", ui.timeValue);
+            FileManager.SaveData("currentGame/time", TimeController.TimeValue);
         }
         void SaveStats()
         {
@@ -107,7 +107,9 @@ public class SaveLoadSystem : MonoBehaviour {
         }
         void LoadTime()
         {
-            float.TryParse(FileManager.LoadData("currentGame/time"), out ui.timeValue);
+            float timeValue = 0;
+            float.TryParse(FileManager.LoadData("currentGame/time"), out timeValue);
+            TimeController.TimeValue = timeValue;
         }
         void LoadStats()
         {

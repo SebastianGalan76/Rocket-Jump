@@ -2,21 +2,21 @@
   <fileVersion>1</fileVersion>
   <currentGame>
     <levelIsCompleted>0</levelIsCompleted>
-    <time>26.52936</time>
+    <time>28.29462</time>
     <player>
-      <posX>22.60536</posX>
-      <posY>9.257814</posY>
-      <velocityX>0.1325538</velocityX>
-      <velocityY>0</velocityY>
-      <currentSkinID>0</currentSkinID>
+      <posX>16.20833</posX>
+      <posY>2.257934</posY>
+      <velocityX>-0.5118174</velocityX>
+      <velocityY>0.5235724</velocityY>
+      <currentSkinID>1</currentSkinID>
       <playerIsDead>0</playerIsDead>
     </player>
     <currentGameStats>
-      <jumpAmount>10</jumpAmount>
-      <fallAmount>0</fallAmount>
+      <jumpAmount>13</jumpAmount>
+      <fallAmount>1</fallAmount>
       <deathAmount>0</deathAmount>
     </currentGameStats>
-    <skinObj0>1</skinObj0>
+    <skinObj0>0</skinObj0>
     <skinObj1>2</skinObj1>
     <skinObj2>3</skinObj2>
     <skinObj3>4</skinObj3>
@@ -28,7 +28,7 @@
     <skinObj9>10</skinObj9>
     <skinObj10>11</skinObj10>
     <skinObj11>12</skinObj11>
-    <skin0>1</skin0>
+    <skin0>0</skin0>
     <skin1>1</skin1>
     <skin2>1</skin2>
     <skin3>1</skin3>
@@ -49,132 +49,132 @@
     <wiseMovement2>1</wiseMovement2>
     <traps>
       <trap0>
-        <posX>6058526</posX>
-        <posY>-224.995</posY>
-        <target>1</target>
+        <posX>4.497232</posX>
+        <posY>-2.25</posY>
+        <target>0</target>
         <moveBack>1</moveBack>
       </trap0>
       <trap1>
-        <posX>-124.9743</posX>
-        <posY>-2201592</posY>
-        <target>1</target>
+        <posX>-1.25</posX>
+        <posY>-1.34893</posY>
+        <target>0</target>
         <moveBack>1</moveBack>
       </trap1>
       <trap2>
-        <posX>-28549.44</posX>
-        <posY>-1617592</posY>
-        <target>3</target>
+        <posX>4.316903</posX>
+        <posY>-1.540931</posY>
+        <target>14</target>
         <moveBack>0</moveBack>
       </trap2>
       <trap3>
-        <posX>-110.7859</posX>
-        <posY>138133.6</posY>
+        <posX>-1.11</posX>
+        <posY>1.147271</posY>
         <target>0</target>
-        <moveBack>0</moveBack>
+        <moveBack>1</moveBack>
       </trap3>
       <trap4>
-        <posX>2.51665</posX>
+        <posX>-1.092151</posX>
         <posY>-2.25</posY>
         <target>1</target>
         <moveBack>0</moveBack>
       </trap4>
       <trap5>
-        <posX>1091708</posX>
-        <posY>-4897619</posY>
-        <target>1</target>
-        <moveBack>1</moveBack>
-      </trap5>
-      <trap6>
-        <posX>3356012</posX>
-        <posY>-1408757</posY>
+        <posX>5.501572</posX>
+        <posY>0.006313558</posY>
         <target>2</target>
         <moveBack>0</moveBack>
+      </trap5>
+      <trap6>
+        <posX>3.583522</posX>
+        <posY>-1.405977</posY>
+        <target>2</target>
+        <moveBack>1</moveBack>
       </trap6>
       <trap7>
-        <posX>-758.9985</posX>
-        <posY>-7770580</posY>
-        <target>0</target>
+        <posX>-7.59</posX>
+        <posY>-5.11129</posY>
+        <target>1</target>
         <moveBack>0</moveBack>
       </trap7>
       <trap8>
-        <posX>-758.9985</posX>
-        <posY>-7060265</posY>
+        <posX>-7.59</posX>
+        <posY>-4.012816</posY>
         <target>1</target>
-        <moveBack>1</moveBack>
+        <moveBack>0</moveBack>
       </trap8>
       <trap9>
-        <posX>-7268547</posX>
+        <posX>-1.391716</posX>
         <posY>-8</posY>
-        <target>0</target>
+        <target>1</target>
         <moveBack>0</moveBack>
       </trap9>
       <trap10>
-        <posX>2448806</posX>
-        <posY>0</posY>
-        <target>7</target>
-        <moveBack>0</moveBack>
+        <posX>4.823017</posX>
+        <posY>-2.5</posY>
+        <target>2</target>
+        <moveBack>1</moveBack>
       </trap10>
       <trap11>
-        <posX>169.1809</posX>
+        <posX>1.204756</posX>
         <posY>0</posY>
-        <target>2</target>
+        <target>1</target>
         <moveBack>0</moveBack>
       </trap11>
       <trap12>
         <posX>0</posX>
-        <posY>1102498</posY>
+        <posY>-4.867363</posY>
         <target>1</target>
-        <moveBack>1</moveBack>
+        <moveBack>0</moveBack>
       </trap12>
       <trap13>
-        <posX>-5336716</posX>
-        <posY>1612942</posY>
-        <target>0</target>
+        <posX>0</posX>
+        <posY>1.19107</posY>
+        <target>1</target>
         <moveBack>0</moveBack>
       </trap13>
       <trap14>
-        <posX>-1661387</posX>
-        <posY>-524.8568</posY>
-        <target>1</target>
+        <posX>-17.57807</posX>
+        <posY>-5.25</posY>
+        <target>0</target>
         <moveBack>1</moveBack>
       </trap14>
       <trap15>
-        <posX>-6429985</posX>
-        <posY>-178.993</posY>
-        <target>5</target>
+        <posX>-8.305042</posX>
+        <posY>2.976993</posY>
+        <target>2</target>
         <moveBack>0</moveBack>
       </trap15>
       <trap16>
-        <posX>-1150220</posX>
-        <posY>1546952</posY>
+        <posX>-13.20744</posX>
+        <posY>0.4468055</posY>
         <target>2</target>
         <moveBack>0</moveBack>
       </trap16>
       <trap17>
-        <posX>1.389619</posX>
+        <posX>4.238667</posX>
         <posY>1.75</posY>
-        <target>1</target>
-        <moveBack>0</moveBack>
+        <target>0</target>
+        <moveBack>1</moveBack>
       </trap17>
       <trap18>
-        <posX>-110.7081</posX>
-        <posY>-101114.7</posY>
+        <posX>-1.11</posX>
+        <posY>-2.147271</posY>
         <target>0</target>
-        <moveBack>0</moveBack>
+        <moveBack>1</moveBack>
       </trap18>
       <trap19>
-        <posX>-283584.2</posX>
+        <posX>-5.260172</posX>
         <posY>-8</posY>
-        <target>0</target>
+        <target>1</target>
         <moveBack>0</moveBack>
       </trap19>
     </traps>
   </currentGame>
   <stats>
-    <fallAmount>13</fallAmount>
-    <deathAmount>3</deathAmount>
-    <jumpAmount>122</jumpAmount>
-    <skinObj0>0</skinObj0>
+    <fallAmount>12</fallAmount>
+    <deathAmount>19</deathAmount>
+    <jumpAmount>68</jumpAmount>
+    <skinObj0>1</skinObj0>
     <skinObj1>0</skinObj1>
     <skinObj2>0</skinObj2>
     <skinObj3>0</skinObj3>
@@ -190,15 +190,15 @@
     <secretRoom1>0</secretRoom1>
     <secretRoom2>0</secretRoom2>
     <secretRoom3>0</secretRoom3>
-    <wiseMovement0>0</wiseMovement0>
-    <wiseMovement1>0</wiseMovement1>
+    <wiseMovement0>1</wiseMovement0>
+    <wiseMovement1>1</wiseMovement1>
     <wiseMovement2>0</wiseMovement2>
   </stats>
   <settings>
     <resolutionID>6</resolutionID>
     <fullScreen>1</fullScreen>
-    <languageID>0</languageID>
-    <soundVolume>0</soundVolume>
-    <musicVolume>0</musicVolume>
+    <languageID>1</languageID>
+    <soundVolume>0.6833506</soundVolume>
+    <musicVolume>0.3549948</musicVolume>
   </settings>
 </game>

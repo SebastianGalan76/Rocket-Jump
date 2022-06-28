@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ParticleSystem : MonoBehaviour {
-    public GameObject[] particles;
+    [SerializeField]private GameObject[] particles;
 
     public void ShowParticle(int particleID, Vector3 position, float destroyDelay = 2f) {
         GameObject particle = Instantiate(particles[particleID]);

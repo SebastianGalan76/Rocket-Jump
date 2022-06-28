@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundSystem : MonoBehaviour {
-    public GameObject[] soundObjects;
+    [SerializeField]private GameObject[] soundObjects;
 
     public float soundVolume;
 

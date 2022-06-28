@@ -26,7 +26,6 @@ public class MovingObject : MonoBehaviour {
         time -= Time.deltaTime;
 
         if(ObjectIsNearDestination()) {
-            //destinations[currentDestinationID].name - delay
             float.TryParse(destinations[currentDestinationID].name, out time);
 
             if(randomDestination) {

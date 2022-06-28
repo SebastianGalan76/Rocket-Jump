@@ -4,37 +4,42 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class GameSystem : MonoBehaviour {
-    public Transform playerT;
+    [SerializeField] private Transform playerT;
+
+    [SerializeField] private GameObject[] secretRoom;
+    [SerializeField] private GameObject[] wiseMovement;
+
+    [SerializeField] private BackgroundSystem bgSystem;
+    [SerializeField] private PlayerSkinSystem playerSkinSystem;
+    [SerializeField] private SaveLoadSystem saveLoadSystem;
+    [SerializeField] private UISystem ui;
+
+    [SerializeField] private TrailRenderer[] trails;
+    [SerializeField] private UICircle circle;
 
     private new CameraSystem camera;
-    public BackgroundSystem bgSystem;
-    public PlayerSkinSystem playerSkinSystem;
-    public UISystem ui;
-
     private int currentLevel, lastLevel;
 
-    public GameObject[] secretRoom;
-    public GameObject[] wiseMovement;
+    private int levelsInOneStage = 14;
+    private float oneLevelHeight = 11;
 
-    public SaveLoadSystem saveLoadSystem;
-
-    public TrailRenderer[] trails;
+    private void Awake() {
+        camera = Camera.main.GetComponent<CameraSystem>();
+    }
 
     private void Start() {
-        camera = Camera.main.GetComponent<CameraSystem>();
-
         LoadGame();
     }
 
     private void FixedUpdate() {
-        currentLevel = (int)playerT.position.y / 11;
+        currentLevel = (int)(playerT.position.y / oneLevelHeight);
 
         if(currentLevel != lastLevel) {
-            if(currentLevel > lastLevel && currentLevel % 14 == 0) {
-                bgSystem.ChangeBackground(currentLevel / 14);
+            if(currentLevel > lastLevel && currentLevel % levelsInOneStage == 0) {
+                bgSystem.ChangeBackground(currentLevel / levelsInOneStage);
             }
-            if(currentLevel < lastLevel && lastLevel % 14 == 0) {
-                bgSystem.ChangeBackground(currentLevel / 14);
+            if(currentLevel < lastLevel && lastLevel % levelsInOneStage == 0) {
+                bgSystem.ChangeBackground(currentLevel / levelsInOneStage);
             }
 
             if(currentLevel < lastLevel) {
@@ -43,7 +48,7 @@ public class GameSystem : MonoBehaviour {
             }
 
             ui.ChangeLevelNr(currentLevel + 1);
-            if(currentLevel >= 14) {
+            if(currentLevel >= levelsInOneStage) {
                 SteamAchievements.UnlockAchievement("NEW_ACHIEVEMENT_1_0");
             }
             lastLevel = currentLevel;
@@ -52,7 +57,7 @@ public class GameSystem : MonoBehaviour {
 
     public void LoadGame() {
         saveLoadSystem.LoadGame();
-        currentLevel = (int)playerT.position.y / 11;
+        currentLevel = (int)(playerT.position.y / oneLevelHeight);
 
         lastLevel = currentLevel;
 
@@ -60,11 +65,11 @@ public class GameSystem : MonoBehaviour {
 
         camera.LoadCamera();
 
-        bgSystem.ChangeBackground(currentLevel / 14);
+        bgSystem.ChangeBackground(currentLevel / levelsInOneStage);
         playerSkinSystem.LoadSkinSystem();
 
         TurnOnTrail();
-        ui.ShowCircle(false);
+        circle.HideCircle();
 
         for(int i = 0; i < secretRoom.Length; i++) {
             if(int.Parse(FileManager.LoadData("currentGame/secretRoom" + i)) == 0) {

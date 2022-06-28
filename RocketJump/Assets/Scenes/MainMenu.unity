@@ -596,8 +596,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332284212}
-        m_TargetAssemblyTypeName: UISystem, Assembly-CSharp
+      - m_Target: {fileID: 1332284213}
+        m_TargetAssemblyTypeName: UISettings, Assembly-CSharp
         m_MethodName: ChangeResolutionID
         m_Mode: 6
         m_Arguments:
@@ -1922,7 +1922,7 @@ GameObject:
   - component: {fileID: 299530174}
   - component: {fileID: 299530173}
   m_Layer: 0
-  m_Name: Tut2_18
+  m_Name: Hi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2495,8 +2495,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332284212}
-        m_TargetAssemblyTypeName: UISystem, Assembly-CSharp
+      - m_Target: {fileID: 1332284213}
+        m_TargetAssemblyTypeName: UISettings, Assembly-CSharp
         m_MethodName: ChangeResolutionID
         m_Mode: 6
         m_Arguments:
@@ -9190,8 +9190,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332284212}
-        m_TargetAssemblyTypeName: UISystem, Assembly-CSharp
+      - m_Target: {fileID: 1332284213}
+        m_TargetAssemblyTypeName: UISettings, Assembly-CSharp
         m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
@@ -10153,8 +10153,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332284212}
-        m_TargetAssemblyTypeName: UISystem, Assembly-CSharp
+      - m_Target: {fileID: 1332284213}
+        m_TargetAssemblyTypeName: UISettings, Assembly-CSharp
         m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
@@ -11529,8 +11529,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332284212}
-        m_TargetAssemblyTypeName: UISystem, Assembly-CSharp
+      - m_Target: {fileID: 1332284213}
+        m_TargetAssemblyTypeName: UISettings, Assembly-CSharp
         m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
@@ -11827,8 +11827,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1332284212}
-        m_TargetAssemblyTypeName: UISystem, Assembly-CSharp
+      - m_Target: {fileID: 1332284213}
+        m_TargetAssemblyTypeName: UISettings, Assembly-CSharp
         m_MethodName: SaveSettings
         m_Mode: 1
         m_Arguments:
@@ -14040,6 +14040,9 @@ GameObject:
   - component: {fileID: 1332284210}
   - component: {fileID: 1332284209}
   - component: {fileID: 1332284208}
+  - component: {fileID: 1332284215}
+  - component: {fileID: 1332284214}
+  - component: {fileID: 1332284213}
   - component: {fileID: 1332284212}
   m_Layer: 5
   m_Name: Canvas
@@ -14148,30 +14151,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f577aff0883b8d44b51801adca8b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeText: {fileID: 0}
   levelNrText: {fileID: 0}
-  PPause: {fileID: 0}
+  POptions: {fileID: 1692637254}
+  PCredits: {fileID: 64023835}
   gameSystem: {fileID: 0}
+  newGameWarning: {fileID: 494062481}
+--- !u!114 &1332284213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332284207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c5cabc080d0f0d4b99d957b4048bff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSlider: {fileID: 1694140492}
+  musicSlider: {fileID: 2076363318}
+  languageFlags:
+  - {fileID: 1047851602}
+  - {fileID: 873295062}
+  - {fileID: 1518691976}
+  - {fileID: 752736973}
+  - {fileID: 2012437959}
+  TResolutionValue: {fileID: 1194609532}
+  TFullScreenValue: {fileID: 1999285406}
   cameraSystem: {fileID: 0}
-  timeValue: 0
-  isPaused: 0
-  gameComplete: 0
-  time: {fileID: 0}
-  jumps: {fileID: 0}
-  falls: {fileID: 0}
-  deaths: {fileID: 0}
-  wiseMovement: {fileID: 0}
-  playerSkin: {fileID: 0}
-  secretRoom: {fileID: 0}
+  soundSystem: {fileID: 1144479082}
+  languageID: 0
+--- !u!114 &1332284214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332284207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ae07835c7031f459efc870fed46d8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   Ttime: {fileID: 0}
   Tjumps: {fileID: 0}
   Tfalls: {fileID: 0}
   Tdeaths: {fileID: 0}
-  Tresolution: {fileID: 1944722987}
-  TfullScreen: {fileID: 9999541}
-  Tlanguage: {fileID: 648323933}
-  Tsounds: {fileID: 544944435}
-  Tmusic: {fileID: 1208153670}
   TnewGame: {fileID: 710148820}
   TloadGame: {fileID: 2130332211}
   TwarningLine1: {fileID: 1404353497}
@@ -14188,40 +14213,37 @@ MonoBehaviour:
   - {fileID: 1093596540}
   - {fileID: 231548891}
   Toptions:
-  - {fileID: 2095449834}
   - {fileID: 323911944}
+  - {fileID: 2095449834}
   Tcredits:
   - {fileID: 984348756}
   - {fileID: 2027229769}
-  POptions: {fileID: 1692637254}
-  PCredits: {fileID: 64023835}
-  newGameWarning: {fileID: 494062481}
-  languageFlags:
-  - {fileID: 1047851602}
-  - {fileID: 873295062}
-  - {fileID: 1518691976}
-  - {fileID: 752736973}
-  - {fileID: 2012437959}
-  soundSlider: {fileID: 1694140492}
-  musicSlider: {fileID: 2076363318}
-  soundSystem: {fileID: 1144479082}
-  PInfo: {fileID: 0}
-  PInfo_icon: {fileID: 0}
-  PInfo_icons: []
-  PInfo_text: {fileID: 0}
+  Tresolution: {fileID: 1944722987}
+  TfullScreen: {fileID: 9999541}
+  Tlanguage: {fileID: 648323933}
+  Tsounds: {fileID: 544944435}
+  Tmusic: {fileID: 1208153670}
+--- !u!114 &1332284215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332284207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e64be12adf7de64cbbeb9a6a36f017b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  circle: {fileID: 1327202322}
   circleColor:
   - serializedVersion: 2
-    rgba: 4282721340
+    rgba: 4282655547
   - serializedVersion: 2
     rgba: 4280550479
   - serializedVersion: 2
-    rgba: 4284492032
-  playerT: {fileID: 0}
-  circle: {fileID: 1327202322}
-  gameCompletedAnim: {fileID: 0}
-  TResolution: {fileID: 1194609532}
-  TFullScreen: {fileID: 1999285406}
-  languageID: 0
+    rgba: 4284557825
+  player: {fileID: 0}
 --- !u!1001 &1348399038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16458,8 +16480,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332284212}
-        m_TargetAssemblyTypeName: UISystem, Assembly-CSharp
+      - m_Target: {fileID: 1332284213}
+        m_TargetAssemblyTypeName: UISettings, Assembly-CSharp
         m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
@@ -22206,8 +22228,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332284212}
-        m_TargetAssemblyTypeName: UISystem, Assembly-CSharp
+      - m_Target: {fileID: 1332284213}
+        m_TargetAssemblyTypeName: UISettings, Assembly-CSharp
         m_MethodName: SetAudioVolume
         m_Mode: 0
         m_Arguments:
@@ -28509,8 +28531,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332284212}
-        m_TargetAssemblyTypeName: UISystem, Assembly-CSharp
+      - m_Target: {fileID: 1332284213}
+        m_TargetAssemblyTypeName: UISettings, Assembly-CSharp
         m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
@@ -29115,8 +29137,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332284212}
-        m_TargetAssemblyTypeName: UISystem, Assembly-CSharp
+      - m_Target: {fileID: 1332284213}
+        m_TargetAssemblyTypeName: UISettings, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 0
         m_Arguments:
