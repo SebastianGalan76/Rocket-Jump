@@ -2,16 +2,16 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/Rocket Jump/[Ll]ibrary/
+/Rocket Jump/[Tt]emp/
+/Rocket Jump/[Oo]bj/
+/Rocket Jump/[Bb]uild/
+/Rocket Jump/[Bb]uilds/
+/Rocket Jump/[Ll]ogs/
+/Rocket Jump/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
+!/Rocket Jump/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -58,3 +58,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+*.meta
+/Rocket Jump/Assets/Scripts/SteamWorks.NET/*
+/Rocket Jump/steam_appid.txt
+*.asset
+/Rocket Jump/Packages/*
+/Rocket Jump/ProjectSettings/*
+/Rocket Jump/.vsconfig
+/Rocket Jump/Assets/Plugins/*

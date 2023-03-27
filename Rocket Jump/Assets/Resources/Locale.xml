@@ -1,0 +1,137 @@
+<locale>
+  <en_GB>
+    <newGame>NEW GAME</newGame>
+    <loadGame>LOAD GAME</loadGame>
+    <options>OPTIONS</options>
+    <exit>EXIT</exit>
+    <newGameWarningLine1>Do you want to start a new game?</newGameWarningLine1>
+    <newGameWarningLine2>You will lost all your progress!</newGameWarningLine2>
+    <yes>YES</yes>
+    <no>NO</no>
+    <saveGame>SAVE GAME</saveGame>
+    <mainMenu>MAIN MENU</mainMenu>
+    <resolution>Resolution:</resolution>
+    <fullScreen>Full Screen:</fullScreen>
+    <language>Language:</language>
+    <sounds>Sounds:</sounds>
+	<music>Music:</music>
+    <time>TIME</time>
+    <jumps>JUMPS</jumps>
+    <deaths>DEATHS</deaths>
+    <falls>FALLS</falls>
+    <credits>CREDITS</credits>
+    <trailerMusic>Trailer music: </trailerMusic>
+    <soundsInGame>Sounds in game: </soundsInGame>
+    <soundsInGame-Info>All sounds are downloaded from freesound.com</soundsInGame-Info>
+	<graphics>Graphics:</graphics>
+    <back>BACK</back>
+  </en_GB>
+  <pl_PL>
+    <newGame>NOWA GRA</newGame>
+    <loadGame>WCZYTAJ GRĘ</loadGame>
+    <options>USTAWIENIA</options>
+    <exit>WYJŚCIE</exit>
+    <newGameWarningLine1>Chcesz rozpocząć nową grę?</newGameWarningLine1>
+    <newGameWarningLine2>Stracisz swój postęp!</newGameWarningLine2>
+    <yes>TAK</yes>
+    <no>NIE</no>
+    <saveGame>ZAPISZ GRĘ</saveGame>
+    <mainMenu>MENU</mainMenu>
+    <resolution>Rozdzielczość:</resolution>
+    <fullScreen>Pełny ekran:</fullScreen>
+    <language>Język:</language>
+    <sounds>Dźwięki:</sounds>
+	<music>Muzyka:</music>
+    <time>CZAS</time>
+    <jumps>SKOKI</jumps>
+    <deaths>ŚMIERCI</deaths>
+    <falls>UPADKI</falls>
+    <credits>CREDITS</credits>
+    <trailerMusic>Muzyka ze zwiastuna: </trailerMusic>
+    <soundsInGame>Dźwieki w grze: </soundsInGame>
+    <soundsInGame-Info>Wszystkie dźwięki pochodzą ze strony freesound.com</soundsInGame-Info>
+	  <graphics>Grafika:</graphics>
+    <back>WSTECZ</back>
+  </pl_PL>
+  <de_DE>
+    <newGame>NEUES SPIEL</newGame>
+    <loadGame>SPIEL LADEN</loadGame>
+    <options>OPTIONEN</options>
+    <exit>AUSFAHRT</exit>
+    <newGameWarningLine1>Möchten Sie ein neues Spiel starten?</newGameWarningLine1>
+    <newGameWarningLine2>Sie werden alle Ihre Fortschritte verlieren!</newGameWarningLine2>
+    <yes>JA</yes>
+    <no>NEIN</no>
+    <saveGame>SPIEL SPEICHERN</saveGame>
+    <mainMenu>HAUPTMENÜ</mainMenu>
+    <resolution>Auflösung:</resolution>
+    <fullScreen>Vollbildschirm:</fullScreen>
+    <language>Sprache:</language>
+    <sounds>Geräusche:</sounds>
+	<music>Musik:</music>
+    <time>ZEIT</time>
+    <jumps>SPRÜNGE</jumps>
+    <deaths>TODESFÄLLE</deaths>
+    <falls>STÜRZE</falls>
+    <credits>CREDITS</credits>
+    <trailerMusic>Trailermusik: </trailerMusic>
+    <soundsInGame>Geräusche im Spiel: </soundsInGame>
+    <soundsInGame-Info>Alle Sounds werden heruntergeladen von freesound.com</soundsInGame-Info>
+	  <graphics>Grafik:</graphics>
+    <back>GEH ZURÜCK</back>
+  </de_DE>
+  <es_ES>
+    <newGame>NUEVO JUEGO</newGame>
+    <loadGame>CARGAR JUEGO</loadGame>
+    <options>OPCIONES</options>
+    <exit>SALIDA</exit>
+    <newGameWarningLine1>¿Quieres empezar un nuevo juego?</newGameWarningLine1>
+    <newGameWarningLine2>¡Perderás todo tu progreso!</newGameWarningLine2>
+    <yes>SÍ</yes>
+    <no>NO</no>
+    <saveGame>GUARDER PARTIDA</saveGame>
+    <mainMenu>MENÚ PRINCIPAL</mainMenu>
+    <resolution>Resolución:</resolution>
+    <fullScreen>Pantalla completa:</fullScreen>
+    <language>Idioma:</language>
+    <sounds>Sonidos:</sounds>
+	<music>Música:</music>
+    <time>TIEMPO</time>
+    <jumps>SALTOS</jumps>
+    <deaths>FALLECIDOS</deaths>
+    <falls>CAÍDAS</falls>
+    <credits>CRÉDITOS</credits>
+    <trailerMusic>Música del tráiler: </trailerMusic>
+    <soundsInGame>Sonidos en el juego: </soundsInGame>
+    <soundsInGame-Info>Todos los sonidos se descargan de freesound.com</soundsInGame-Info>
+	  <graphics>Gráficos:</graphics>
+    <back>REGRESA</back>
+  </es_ES>
+  <fr_FR>
+    <newGame>NOUVEAU JEU</newGame>
+    <loadGame>CHARGEMENT DU JEU</loadGame>
+    <options>OPTIONS</options>
+    <exit>SORTIR</exit>
+    <newGameWarningLine1>Voulez-vous commencer un nouveau jeu ?</newGameWarningLine1>
+    <newGameWarningLine2>Vous perdrez tous vos progrès !</newGameWarningLine2>
+    <yes>OUI</yes>
+    <no>NON</no>
+    <saveGame>SAUVEGARDER LA PARTIE</saveGame>
+    <mainMenu>MENU PRINCIPAL</mainMenu>
+    <resolution>Résolution:</resolution>
+    <fullScreen>Plein écran:</fullScreen>
+    <language>Langue:</language>
+    <sounds>Des sons:</sounds>
+	<music>Musique:</music>
+    <time>TEMPS</time>
+    <jumps>SAUTS</jumps>
+    <deaths>DES MORTS</deaths>
+    <falls>CHUTES</falls>
+    <credits>CRÉDITS</credits>
+    <trailerMusic>Musique de la bande-annonce: </trailerMusic>
+    <soundsInGame>Sons dans le jeu: </soundsInGame>
+    <soundsInGame-Info>Tous les sons sont téléchargés sur freesound.com</soundsInGame-Info>
+	  <graphics>Graphique:</graphics>
+    <back>RETOURNER</back>
+  </fr_FR>
+</locale>
